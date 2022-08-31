@@ -165,7 +165,7 @@ class FrameAnalysis(ttk.Frame):
         analysis2Btn = ttk.Button(self, text='Statistic per day', command=self.analysis_2)
         analysis2Btn.pack(pady=App.tkPadY, ipady=App.tkIPadY, ipadx=App.tkIPadX, fill='x')
 
-        analysis3Btn = ttk.Button(self, text='Date / reason matrix', command=self.analysis_3)
+        analysis3Btn = ttk.Button(self, text='Date / event type matrix', command=self.analysis_3)
         analysis3Btn.pack(pady=App.tkPadY, ipady=App.tkIPadY, ipadx=App.tkIPadX, fill='x')
 
         hide_reportsBtn = ttk.Button(self, text='Hide report', command=self.hide_report)
