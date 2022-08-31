@@ -1,11 +1,11 @@
 # Windows application for logging different type of events #  
-Log any kind of events (e.g. meals, any kind of activities, smoking cigarettes, ...).
+Log any kind of events (e.g. meals, any kind of activities, smoking cigarettes, ...).  
 Logged events can be presented in range of reports.
 
 ### Technologies ###
 - language - Python 3
-- GUI - tkinter
-- database - sqlite3
+- GUI - Tkinter
+- database - SQLite
 
 ### Functionality details ###
 ##### Settings #####
@@ -19,13 +19,15 @@ Logged events can be presented in range of reports.
 
 ##### Events #####
 - list of all event's types
-- push the button to log an event  
+- push the button to log an event
+- push 'Close app' button to close the application
 
 <img src="imgs\events.jpg" title="event's types" height="380" width="197"/>
 
 ##### Analysis #####
 - list of available reports, for report for a specific day enter a date
 - push the button to generate a report
+- push 'Hide report' button to close a report
 
 <img src="imgs\report.jpg" title="reports" height="380" width="197"/>
 
